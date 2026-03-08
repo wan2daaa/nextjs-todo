@@ -18,7 +18,7 @@ export function TodoItem({ todo, onToggle, onDelete }: TodoItemProps) {
         id={todo.id}
         checked={todo.completed}
         onCheckedChange={() => onToggle(todo.id)}
-        className="border-white/40 data-[state=checked]:bg-purple-500 data-[state=checked]:border-purple-500"
+        className="border-white/40 data-[state=checked]:bg-amber-600 data-[state=checked]:border-amber-600"
       />
       <label
         htmlFor={todo.id}

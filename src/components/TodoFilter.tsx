@@ -38,7 +38,7 @@ export function TodoFilter({
           onClick={() => onFilterChange(f.value)}
           className={`flex-1 flex items-center justify-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
             filter === f.value
-              ? 'bg-purple-500 text-white shadow-lg shadow-purple-500/20'
+              ? 'bg-amber-700 text-amber-50 shadow-lg shadow-amber-700/20'
               : 'text-white/50 hover:text-white/80 hover:bg-white/5'
           }`}
         >

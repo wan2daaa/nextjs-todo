@@ -22,12 +22,12 @@ export function TodoApp() {
   } = useTodos()
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 p-4 sm:p-8">
+    <div className="min-h-screen bg-gradient-to-br from-stone-950 via-amber-950 to-stone-950 p-4 sm:p-8">
       <div className="max-w-lg mx-auto">
         {/* 헤더 */}
         <div className="flex items-center gap-3 mb-8">
-          <div className="p-2 bg-purple-500/20 rounded-xl border border-purple-500/30">
-            <ListTodo className="w-6 h-6 text-purple-400" />
+          <div className="p-2 bg-amber-700/20 rounded-xl border border-amber-600/30">
+            <ListTodo className="w-6 h-6 text-amber-400" />
           </div>
           <div>
             <h1 className="text-2xl font-bold text-white">My Todos</h1>

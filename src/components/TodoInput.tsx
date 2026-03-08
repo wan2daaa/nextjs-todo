@@ -29,12 +29,12 @@ export function TodoInput({ onAdd }: TodoInputProps) {
         onChange={e => setValue(e.target.value)}
         onKeyDown={handleKeyDown}
         placeholder="새로운 할 일을 입력하세요..."
-        className="flex-1 bg-white/10 border-white/20 text-white placeholder:text-white/40 focus-visible:ring-purple-400"
+        className="flex-1 bg-white/10 border-white/20 text-white placeholder:text-white/40 focus-visible:ring-amber-500"
       />
       <Button
         onClick={handleSubmit}
         disabled={!value.trim()}
-        className="bg-purple-500 hover:bg-purple-400 text-white border-0 transition-all duration-200"
+        className="bg-amber-700 hover:bg-amber-600 text-amber-50 border-0 transition-all duration-200"
       >
         <Plus className="w-4 h-4" />
       </Button>
